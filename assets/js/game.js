@@ -10,6 +10,7 @@ var enemyAttack = 12;
 
 var fight = function () {
     window.alert ("Welcome to Robot Gladiators!");
+    var promptFight = window.prompt ("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or SKIP' to choose.")
 
     enemyHealth = enemyHealth - playerAttack;
 
